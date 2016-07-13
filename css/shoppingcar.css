@@ -1,0 +1,105 @@
+*{
+	font-size: 14px;
+}
+.in{
+	width: 1200px;
+	margin: 0 auto;
+}
+article{
+	margin-bottom: 30px;
+}
+article h2{
+	height: 78px;
+	border-bottom: 2px solid #ccc;
+	margin-bottom:22px;
+}
+article h2 p{
+	width: 114px;
+	font-size: 19px;
+	font-weight: normal;
+	height: 19px;
+	line-height: 19px;
+	padding: 31px 0 28px 15px;
+	border-bottom: 2px solid #ff9339;
+	letter-spacing: 2px;
+}
+article table{
+	color: #7d7c7c;
+	width: 100%;
+	border: 1px solid #fe943c;
+}
+table a{
+	color: #7d7c7c;
+	font-size: 16px;
+	text-decoration: underline;
+}
+table th{
+	font-size: 16px;
+	padding-left: 20px;
+	font-weight: normal;
+	color: #fff;
+	background: #fe943c;
+	text-align: left;
+	height: 42px;
+	line-height: 42px;
+}
+table tbody tr:not(:last-child){
+	border-bottom: 1px solid #fe943c;
+}
+table tr td{
+	font-size: 16px;
+	padding-left: 20px;
+	height: 62px;
+	line-height: 62px;
+}
+table tr:hover{
+	color: #fff;
+	background-color: #ff9000;
+}
+table tr:hover a{
+	color: #fff;
+}
+.selectAll{
+	padding: 15px 0 0 20px;
+}
+.selectAll a{
+	font-size: 16px;
+}
+.totalMoney,.payMoney{
+	line-height: 30px;
+	font-size: 16px;
+	text-align: right;
+}
+.totalMoney>span:first-of-type{
+	margin-right: 40px;
+}
+.payMoney{
+	font-size: 22px;
+	font-weight: 600;
+	padding: 5px 20px;
+	color: #7D7C7C;
+	margin: 10px 0;
+}
+.payMoney span{
+	font-size: 22px;
+	color: #f00;
+}
+.choose{
+	text-align: right;
+}
+.choose a{
+	display: inline-block;
+	font-size: 16px;
+	color: #7d7c7c;
+	margin-right: 20px;
+}
+.goOnshopping{
+	text-decoration: underline;
+}
+.goOnshopping:hover{
+	color: #FE943C;
+}
+.choose .goToCount{
+	padding: 5px 20px;
+	border: 1px solid #7c7c7c;
+}

@@ -1,0 +1,93 @@
+.slideWrap{
+	height: 202px;
+	width: 235px;
+	position: fixed;
+	top: 200px;
+	right: -210px;
+	overflow: hidden;
+	transition: all 0.5s 0.2s ease-in-out;
+}
+/*固定的左面*/
+.small_slide{
+	height: 97px;
+	width: 15px;
+	padding: 3px 5px 0 5px;
+	float: left;
+	margin-top: 55px;
+	border-radius: 5px;
+	background: #fc8524;
+
+}
+.small_slide span{
+	font-size: 14px;
+	color: white;
+	font-weight: bold;
+}
+.small_slide img{
+	margin:7px 0 0 3px;
+}
+/*滑动出现的右面*/
+.big_slide{
+	height: 202px;
+	width: 210px;
+	float: left;
+}
+/*右上*/
+.share_top{
+	height: 20px;
+	background: #fd801a;
+	overflow: hidden;
+	padding: 10px 20px 10px 20px;
+}
+.share_top span{
+	font-size: 18px;
+	font-weight: bold;
+	color: white;
+	float: left;
+}
+.share_top a{
+	border: 1px solid #cc5902;
+	display: block;
+	height: 20px;
+	width: 20px;
+	font-size: 24px;
+	background: #fd730a;
+	text-align: center;
+	line-height: 17px;
+	font-weight: bold;
+	color: white;
+	border-radius: 5px;
+	float: right;
+}
+/*右下*/
+.share_bottom{
+	height: 162px;
+	background: #ffffff;
+	overflow: hidden;
+}
+.share_bottom ul{
+	height: 162px;
+	width: 105px;
+	float: left;
+}
+.share_bottom ul>li{
+	height: 25px;
+	padding-left: 10px;
+	padding-top: 7px;
+}
+.share_bottom ul>li>img{
+	vertical-align: middle;
+}
+.share_bottom ul>li>a{
+	color: black;
+	font-size: 12px;
+	margin-left: 5px;
+}
+.share_bottom ul>li>a:hover{
+	color: red;
+}
+/*滑动出现效果*/
+.slideWrap:hover{
+	transform: translateX(-210px);
+	transition: all 0.5s 0.2s ease-in-out;
+}

@@ -1,0 +1,442 @@
+/*main*/
+#mainBox {
+	width: 100%;
+	height: 2023px;
+	background: #fff;
+}
+/*潮流美食*/
+
+.trendFood {
+	width: 1200px;
+	height: 532px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+.trendFood .trendTitle {
+	margin-top: 29px;
+	margin-left: 20px;
+	font-size: 19px;
+	font-weight: normal;
+}
+
+.trendFood .foodContent {
+	width: 1158px;
+	height: 464px;
+	padding: 0 20px;
+	margin-top: 20px;
+}
+
+.foodContent .foodContent_l {
+	width: 395px;
+	height: 457px;
+	border: 1px solid #e4e4e4;
+	float: left;
+}
+
+.foodContent .foodContent_r {
+	width: 760px;
+	height: 457px;
+	border: 1px solid #e5e5e5;
+	border-left: none;
+	float: left;
+}
+
+.foodContent_r .foodContent_rT {
+	width: 760px;
+	height: 210px;
+	border-bottom: 1px solid #e5e5e5;
+}
+
+.foodContent_rT>dl {
+	width: 352px;
+	height: 175px;
+	padding: 19px 5px 16px 15px;
+	float: left;
+}
+
+.foodContent_rT>dl dt {
+	float: left;
+	width: 180px;
+	height: 175px;
+}
+
+.foodContent_rT>dl dd:nth-child(2) {
+	margin-top: 20px;
+	width: 164px;
+	height: 20px;
+	float: left;
+	font-size: 12px;
+	font-weight: bold;
+	line-height: 1.5em;
+}
+
+.foodContent_rT>dl dd:nth-child(3) {
+	margin-top: 10px;
+	color: #6c6a77;
+	font-size: 12px;
+	padding-right: 1px;
+	width: 164px;
+	float: left;
+	line-height: 1.5em;
+}
+
+.foodContent_rT>dl dd a {
+	font-size: 16px;
+}
+
+.foodContent_r .foodContent_rB {
+	width: 760px;
+	height: 247px;
+	border-top: 1px solid #e5e5e5;
+}
+
+.foodContent_rB>dl {
+	width: 219px;
+	height: 209px;
+	padding: 20px 19px 14px 14px;
+	float: left;
+	border-right: 1px solid #e5e5e5;
+}
+
+.foodContent_rB>dl dt {
+	width: 220px;
+	height: 190px;
+}
+
+.foodContent_rB>dl dd:nth-child(2) {
+	margin: 9px 0 0 40px;
+}
+
+
+/*休闲零食*/
+
+.leisureFood {
+	width: 1200px;
+	height: 687px;
+	margin: 0 auto;
+}
+
+.leisureFood .leisureTitle {
+	width: 1200px;
+	height: 43px;
+	border-bottom: 1px solid #e5e5e5;
+}
+
+.leisureTitle>p {
+	width: 114px;
+	height: 43px;
+	border-bottom: 1px solid #fe943c;
+	margin-top: 52px;
+	font-size: 20px;
+	text-align: center;
+}
+
+.leisureFood_l {
+	width: 239px;
+	height: 445px;
+	padding: 19px 12px 14px 9px;
+	float: left;
+}
+
+.leisureFood_l>p {
+	font-size: 16px;
+	margin-bottom: 17px;
+}
+
+.leisureFood_l>ul {
+	width: 216px;
+	height: 121px;
+}
+
+.leisureFood_l>ul li {
+	float: left;
+	margin: 0 0 24px 31px;
+}
+
+.leisureFood_l>ul li>a {
+	font-size: 14px;
+	color: black;
+}
+
+.leisureFood_l>ul li>a:hover {
+	color: red;
+	text-decoration: none;
+}
+
+.leisureFood_l>ul li:first-child {
+	margin-left: 0;
+}
+
+.leisureFood_l>ul li:first-child {
+	margin-left: 0;
+}
+
+.leisureFood_l>ul li:nth-child(5) {
+	margin-left: 0;
+}
+
+.leisureFood_l>ul li:nth-child(9) {
+	margin-left: 0;
+	margin-bottom: 0;
+}
+
+.leisureFood_r {
+	width: 930px;
+	height: 478px;
+	float: right;
+	overflow: hidden;
+}
+
+.leisureFood_r .leisureFood_rT {
+	width: 100%;
+	height: 238px;
+	margin-top: 14px;
+	display: flex;
+	justify-content: space-around;
+}
+
+.leisureFood_rT .foodT_list {
+	width: 291px;
+	height: 227px;
+	position: relative;
+}
+
+.foodT_list .cover_box {
+	width: 295px;
+	height: 230px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background: rgba(0, 0, 0, 0.5);
+	opacity: 0;
+	transition: all .5s;
+}
+
+.foodT_list .cover_box:hover {
+	opacity: 1;
+}
+
+.foodT_list .cover_box p {
+	width: 295px;
+	text-align: center;
+	color: #fff;
+	margin-bottom: 5px;
+}
+
+.foodT_list .cover_box p:first-child {
+	margin-top: 80px;
+}
+
+.foodT_list .cover_box>a {
+	display: block;
+	width: 68px;
+	height: 22px;
+	margin-left: 110px;
+	border: 1px solid #fff;
+	border-radius: 3px;
+	text-align: center;
+	line-height: 22px;
+	color: #fff;
+}
+
+.foodT_list .cover_box>a:hover {
+	background: darkred;
+	border: 1px solid darkred;
+}
+
+.leisureFood_r .leisureFood_rB {
+	width: 930px;
+	height: 206px;
+	padding: 11px 0 12px 0;
+	display: flex;
+	justify-content: space-around;
+}
+
+.leisureFood_rB .foodB_list {
+	width: 219px;
+	height: 206px;
+	position: relative;
+}
+
+.foodB_list .cover_box1 {
+	width: 219px;
+	height: 206px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background: rgba(0, 0, 0, 0.5);
+	opacity: 0;
+	transition: all .5s;
+}
+
+.foodB_list .cover_box1:hover {
+	opacity: 1;
+}
+
+.foodB_list .cover_box1 p {
+	width: 219px;
+	text-align: center;
+	color: #fff;
+	margin-bottom: 5px;
+}
+
+.foodB_list .cover_box1 p:first-child {
+	margin-top: 80px;
+}
+
+.foodB_list .cover_box1>a {
+	display: block;
+	width: 68px;
+	height: 22px;
+	margin-left: 80px;
+	border: 1px solid #fff;
+	border-radius: 3px;
+	text-align: center;
+	line-height: 22px;
+	color: #fff;
+}
+
+.foodB_list .cover_box1>a:hover {
+	background: darkred;
+	border: 1px solid darkred;
+}
+
+.leisureFood>img {
+	margin: 46px 0 0 10px;
+	width: 1178px;
+}
+.leisureFoodAd{
+	display: block;
+	clear: both;
+	padding-top: 50px;
+}
+.foodContent_rB a:hover{
+	color: #FF6600;
+} 
+
+/*进口零食*/
+
+.importFood {
+	width: 1200px;
+	height: 744px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+.importFood .leisureTitle {
+	width: 1200px;
+	height: 43px;
+	border-bottom: 1px solid #cdcdcd;
+}
+
+.importFood .ipFood_list {
+	width: 1145px;
+	height: 587px;
+	margin: 15px 28px 0px 28px;
+	display: flex;
+	justify-content: space-between;
+	align-content: space-around;
+	flex-wrap: wrap;
+}
+
+.ipFood_list figure {
+	width: 205px;
+	height: 276px;
+	margin: 0;
+	padding: 0;
+	perspective: 500px;
+	overflow: hidden;
+}
+
+.ipFood_list figure>img {
+	width: 203px;
+	height: 203px;
+	transform: translateZ(0px);
+	transition: all 500ms;
+}
+.ipFood_list figure a{
+	display: block;
+	width: 203px;
+	height: 203px;
+	overflow: hidden;
+}
+.ipFood_list figure a img{
+	/*transition: .5s, linear;*/
+	-webkit-transition: .5s, linear;
+	-moz-transition: .5s, linear;
+	-o-transition: .5s, linear;
+	-ms-transition: .5s, linear;
+}
+.ipFood_list figure>a:hover img {
+	-webkit-transform: scale(1.2);
+	-ms-transform: scale(1.2);
+	-o-transform: scale(1.2);
+	-moz-transform: scale(1.2);
+}
+
+.ipFood_list figcaption p {
+	width: 205px;
+	text-align: center;
+	line-height: 1.5em;
+}
+
+.ipFood_list figcaption p:nth-child(2) span {
+	color: #d03a05;
+}
+
+.ipFood_list figcaption>a {
+	display: block;
+	width: 68px;
+	height: 22px;
+	margin-left: 65px;
+	background: #fd6600;
+	border-radius: 3px;
+	text-align: center;
+	line-height: 22px;
+	color: #fff;
+}
+
+.ipFood_list figcaption>a img {
+	vertical-align: middle;
+	margin-right: 5px;
+	margin-top: -4px;
+}
+
+
+/*友情链接*/
+.commonLink{
+	height: 144px;
+	background:#f5f5f5;
+}
+.commonLinkWrap{
+	height: 144px;
+	width: 1200px;
+	margin: 0 auto;
+	/*-webkit-column-count:5;有问题
+	-webkit-column-width: 20%;
+	-webkit-column-gap:80px;*/
+	display: flex;
+	justify-content: space-around;
+	
+}
+.commonLinkWrap ul{
+	height: 100px;
+	width: 70px;
+	margin-top: 17px;
+	margin-bottom: 27px;
+	
+}
+.commonLinkWrap ul>li{
+	list-style: none;
+	line-height: 25px;
+}
+.commonLinkWrap ul li:first-of-type a{/*常用服务字变大*/
+	font-size: 16px;
+}
+.commonLinkWrap ul li a{
+	color: #333333;
+}
+.commonLinkWrap ul li a:hover{
+	color: red;
+}

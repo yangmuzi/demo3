@@ -1,0 +1,65 @@
+article .sub_main {
+	width: 990px;
+	height: 480px;
+	float: right;
+}
+
+article h2 {
+	height: 64px;
+	border-bottom: 2px solid #ccc;
+}
+
+article h2 p {
+	width: 114px;
+	font-size: 16px;
+	font-weight: normal;
+	height: 19px;
+	line-height: 19px;
+	padding: 25px 0 20px 15px;
+	border-bottom: 2px solid #ff9339;
+}
+
+.sub_main form {
+	width: 250px;
+	margin: 20px 0 0 200px;
+}
+label input {
+	width: 250px;
+	height: 20px;
+	font-size: 12px;
+	outline: none;
+	/*border:
+1px solid #666;*/
+	border-radius: 5px;
+}
+
+form label {
+	display: block;
+	height: 30px;
+	width: 400px;
+	font-size: 14px;
+	position: relative;
+}
+label span {
+	display: inline-block;
+	text-align: right;
+	width: 100px;
+}
+.verificationCode{
+	position: absolute;
+	top: 2px;
+}
+#postData {
+	display: block;
+	width: 100px;
+	height: 30px;
+	font-size: 16px;
+	margin: 10px auto;
+	border-radius: 10px;
+	outline: none;
+	background: linear-gradient(#999, #eee 50%, #eee 51%, #999 100%);
+}
+form textarea{
+	display: inline-block;
+	vertical-align: middle;
+}

@@ -1,0 +1,63 @@
+article .sub_main{
+	width: 990px;
+	height: 280px;
+	float: right;
+}
+article h2{
+	height: 64px;
+	border-bottom: 2px solid #ccc;
+}
+article h2 p{
+	width: 114px;
+	font-size: 16px;
+	font-weight: normal;
+	height: 19px;
+	line-height: 19px;
+	padding: 25px 0 20px 15px;
+	border-bottom: 2px solid #ff9339;
+}
+.sub_main form{
+	width: 250px;
+	margin: 20px 0 0 380px;
+}
+.username,.password{
+	width: 220px;
+	height: 20px;
+	padding: 7px 10px;
+	background: #f7f7f7;
+	border: 1px solid #b5b5b5;
+	margin-bottom: 12px;
+}
+.username label,.password label{
+	margin: 0 5px;
+}
+.username input,.password input{
+	width: 160px;
+	border: none;
+	outline: none;
+	background-color: #f7f7f7;
+}
+.username input:focus,.password input:focus{
+	background: #fff;
+	color: #333;
+}
+.logoin{
+	width: 240px;
+	height: 35px;
+	color: #fff;
+	background: #ffad2e;
+	border: none;
+	outline: none;
+	font-size: 14px;
+	font-weight: 600;
+	letter-spacing: 10px;
+	border-radius: 4px;
+	cursor: pointer;
+	margin-bottom: 20px;
+}
+.regist a{
+	display: block;
+	width: 60px;
+	text-align: right;
+	padding: 0px 0 30px 540px;
+}

@@ -1,0 +1,189 @@
+.in{
+	width: 1200px;
+	margin: 0 auto;
+}
+article h2{
+	height: 78px;
+	border-bottom: 2px solid #ccc;
+}
+article h2 p{
+	width: 114px;
+	font-size: 19px;
+	font-weight: normal;
+	height: 19px;
+	line-height: 19px;
+	padding: 31px 0 28px 15px;
+	border-bottom: 2px solid #ff9339;
+}
+.currentCondition{
+	height: 28px;
+	padding: 20px 0 18px 25px;
+	background: #fff;
+	position: relative;
+	border-bottom: 2px solid #ccc;
+}
+.currentCondition span{
+	display:inline-block;
+	line-height: 28px;
+}
+.currentCondition i{
+	display: inline-block;
+	font-style: normal;
+	/*width: ;*/
+	height: 12px;
+	line-height: 12px;
+	padding: 7px 10px 7px 5px;
+	background: none;
+	border: 1px solid #ccc;
+}
+.currentCondition i a{
+	display: inline-block;
+	margin-left: 15px;
+	width: 12px;
+	font-size: 12px;
+	line-height: 12px;
+	color: #333;
+	float: right;
+}
+.currentCondition input{
+	height: 12px;
+	line-height: 12px;
+	width: 190px;
+	padding: 7px 35px 7px 5px;
+	background: none;
+	outline: none;
+	margin-left: 30px;
+	border: 1px solid #dedede;
+}
+.currentCondition em{
+	display: inline-block;
+	width: 24px;
+	height: 24px;
+	background: url(../img/jk_search.png);
+	position: absolute;
+	top: 23px;
+	left: 420px;
+}
+.selectedConditon{
+	line-height: 12px;
+	padding: 15px 38px;
+	background: #f4f5f7;
+}
+.serialNumber{
+	line-height: 12px;
+	padding: 13px 55px;
+	border-bottom: 1px dashed #dedede;
+}
+.serialNumber span{
+	margin-right: 18px;
+}
+.serialNumber a{
+	margin-right: 14px;
+}
+.choose{
+	height: 36px;
+	border: 1px solid #dedede;
+	background: #F4F5F7;
+	margin: 10px 0px 0px 0px;
+}
+.choose ul li{
+	width: 80px;
+	height: 36px;
+	position: relative;
+	float: left;
+}
+.choose ul li.choosePage{
+	width: 70px;
+	float: right;
+	height: 12px;
+	padding: 12px 30px 12px 0;
+}
+.pagePrev,.pageAfter{
+	color: #8c8c8c;
+}
+.currentPage{
+	color: #f31e2e;
+}
+.choosed{
+	background: #fff;
+}
+.choose ul li a{
+	display: block;
+	line-height: 36px;
+	width: 80px;
+	text-align: center;
+}
+.choose ul li input{
+	display: inline-block;
+	width: 50px;
+	height: 22px;
+	border: 1px solid #dedede;
+	outline-color: orange;
+/*	float: left;*/
+}
+.priceRange i{
+	display: inline-block;
+	height: 1px;
+	width: 5px;
+	background: #333;
+	margin: 17px 10px;
+	vertical-align: middle;
+}
+.productItem{
+	width: 206px;
+	height: 310px;
+	margin: 34px 0 0 29px;
+	float: left;
+}
+.productItem img{
+	width: 206px;
+	height: 204px;
+}
+.productItem figcaption a{
+	display: block;
+	margin-top: 6px;
+	height: 24px;
+	line-height: 24px;
+	text-align: center;
+}
+.productPrice{
+	text-align: center;
+	font-size:12px;
+	line-height: 24px;
+}
+.productPrice span{
+	color: #d03a05;
+	font-size:12px;
+	font-weight: 600;
+}
+.buyNow a{
+	display: block;
+	width: 26px;
+	height: 14px;
+	line-height: 14px;
+	padding: 4px 10px 4px 30px;
+	background-color: #fd6600;
+	background-image: url(../img/shoppingcar.jpg);
+	background-position: 8px 4px;
+	background-repeat: no-repeat;
+	border-radius: 4px;
+	text-align: center;
+	margin-left: 68px;
+	color: #fff;
+}
+.product:after{
+	content: "";
+	display: block;
+	clear: both;
+}
+.subPage{
+	clear: both;
+	width: 200px;
+	margin: 0 auto;
+}
+.subPage span{
+	display: inline-block;
+	width: 50px;
+	text-align: center;
+	cursor: pointer;
+}

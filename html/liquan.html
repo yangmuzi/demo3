@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>食品礼券</title>
+		<link rel="stylesheet" type="text/css" href="../css/reset.css"/>
+		<link rel="stylesheet" type="text/css" href="../css/showSlide.css"/>
+		<link rel="stylesheet" type="text/css" href="../css/header.css"/>
+		<link rel="stylesheet" type="text/css" href="../css/proSort.css"/>
+		<script src="../js/jquery.js" type="text/javascript" charset="utf-8"></script>
+		<script src="../js/index.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+	<body>
+		<header>
+			<div class="in">
+				<h2>一品小店</h2>
+				<div class="searchBox">
+					<input type="text" placeholder="搜索零食" class="inputBox"/><input type="button" class="searchBtn" value="搜索"/>
+				</div>
+			</div>
+		</header>
+		<nav>
+			<div class="in">
+				<div class="allSorts">
+					<a href="#">全部产品分类</a>
+				</div>
+				<ul class="sub_nav">
+					<li><a href="../index.html">首页</a></li>
+					<li><a href="leisure.html">零食</a></li>
+					<li><a href="wine.html">美酒</a></li>
+					<li><a href="specialty.html">当地特色</a></li>
+					<li><a href="shopping.html">购物车</a></li>
+				</ul>
+			</div>
+		</nav>
+		<div id="banner">
+			<div class="in">
+				<ul class="subSort">
+					<li><i><img src="../img/leftlist-01.png"/></i><a href="snacks.html">休闲零食</a></li>
+					<li><i><img src="../img/leftlist-02.png"/></i><a href="importsnacks.html">进口零食</a></li>
+					<li><i><img src="../img/leftlist-03.png"/></i><a href="fresh.html">生鲜•果蔬</a></li>
+					<li><i><img src="../img/leftlist-04.png"/></i><a href="meijiujl.html">美酒佳酿</a></li>
+					<li><i><img src="../img/leftlist-05.png"/></i><a href="chayin.html">茶•冲饮</a></li>
+					<li><i><img src="../img/leftlist-06.png"/></i><a href="techan.html">地方特产</a></li>
+					<li><i><img src="../img/leftlist-07.png"/></i><a href="liquan.html">食品礼券</a></li>
+				</ul>
+				<ul class="subBanner">
+					<li><a href="#"><img src="../img/banner.jpg"/></a></li>
+				</ul>
+			</div>
+		</div>
+		<article>
+			<div class="in">
+				<h2><p>食品礼券</p></h2>
+				<section class="currentCondition">
+					<span>当前条件：</span><i>食品礼券<a href="snacks.html">x</a></i><input type="text" placeholder="当前条件下搜索"/><em></em>
+				</section>
+				<section class="selectedConditon">
+					已选择：
+				</section>
+				<section class="serialNumber">
+					<span>编号：</span><a href="#">A002</a><a href="#">A003</a>
+				</section>
+				<section class="choose">
+					<ul>
+						<li class="choosed"><a href="javascript:void(0)">名称</a><i class="rankingIcon"></i></li>
+						<li style="width: 100px;"><a href="javascript:void(0)">上架时间</a><i></i></li>
+						<li style="margin-right: 20px;"><a href="javascript:void(0)">价格</a><i></i></li>
+						<li style="width: 220px;" class="priceRange"><input type="text" placeholder="¥"/><i></i><input type="text" placeholder="¥"/><input type="button" id="chooseSure" value="确定"/></li>
+						<li></li>
+						<li class="choosePage">
+							<span class="pagePrev"><</span>
+							<span class="currentPage">1</span>/
+							<span class="allPages">1</span>
+							<span class="pageAfter">></span>
+						</li>
+					</ul>
+				</section>
+				<section class="product">
+					<figure class="productItem">
+							<a href="#"><img src="../img/shou-jin-01.jpg" alt=""></a>
+							<figcaption><a href="#">bake cookie烤制浓厚巧克力</a></figcaption>
+							<p class="productPrice">价格：<span>¥15.00</span></p>
+							<p class="buyNow"><a href="#">购买</a></p>
+					</figure>
+					<figure class="productItem">
+							<a href="#"><img src="../img/shou-jin-02.jpg" alt=""></a>
+							<figcaption><a href="#">小松饼永黄味小米脆饼干</a></figcaption>
+							<p class="productPrice">价格：<span>¥44.00</span></p>
+							<p class="buyNow"><a href="#">购买</a></p>
+					</figure>
+					<figure class="productItem">
+							<a href="#"><img src="../img/shou-jin-03.jpg" alt=""></a>
+							<figcaption><a href="#">烘米苏奶酪咖啡巧克力</a></figcaption>
+							<p class="productPrice">价格：<span>¥33.00</span></p>
+							<p class="buyNow"><a href="#">购买</a></p>
+					</figure>
+					<figure class="productItem">
+							<a href="#"><img src="../img/shou-jin-08.jpg" alt=""></a>
+							<figcaption><a href="#">麦提沙脆心朱古力</a></figcaption>
+							<p class="productPrice">价格：<span>¥11.00</span></p>
+							<p class="buyNow"><a href="#">购买</a></p>
+					</figure>
+					<div class="subPage"><span class="subPagePrev">上一页</span><span class="subPageCurrent">1</span><span class="subPageAfter">下一页</span></div>
+				</section>
+			</div>
+		</article>
+		<!--footer-->
+		<iframe src="../html/footer.html" width="100%" height="102px" scrolling="no" frameborder="0" style="margin-bottom: -4px;"></iframe>
+		<!--slideBar-->
+		<div class="slideWrap">
+			<!-- 固定的左面 -->
+			<div class="small_slide">
+				<span>分享网站</span>
+				<img src="../img/000.jpg"/>
+			</div>
+			<!-- 滑动出现的右面 -->
+			<div class="big_slide">
+				<div class="share_top">
+					<span>分享网站</span>
+					<a href="javascript:void(0)" title="#" id="closeShare">&times;</a>
+				</div>
+				<div class="share_bottom">
+					<ul>
+						<li><img src="../img/2016-02-26_152951.jpg"/><a href="">微信</a></li>
+						<li><img src="../img/2016-02-26_153054.jpg"/><a href="">腾讯微博</a></li>
+						<li><img src="../img/2016-02-26_153213.jpg"/><a href="">QQ空间</a></li>
+						<li><img src="../img/2016-02-26_153253.jpg"/><a href="">人人网</a></li>
+						<li><img src="../img/2016-02-26_153329.jpg"/><a href="">网易微博</a></li>
+					</ul>
+					<ul>
+						<li><img src="../img/2016-02-26_152951.jpg"/><a href="">微信</a></li>
+						<li><img src="../img/2016-02-26_153054.jpg"/><a href="">腾讯微博</a></li>
+						<li><img src="../img/2016-02-26_153213.jpg"/><a href="">QQ空间</a></li>
+						<li><img src="../img/2016-02-26_153253.jpg"/><a href="">人人网</a></li>
+						<li><img src="../img/2016-02-26_153329.jpg"/><a href="">网易微博</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		
+	</body>
+</html>

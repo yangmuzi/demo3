@@ -1,0 +1,210 @@
+.in{
+	width: 1200px;
+	margin: 0 auto;
+}
+article{
+	margin-bottom: 30px;
+}
+article h2{
+	height: 78px;
+	border-bottom: 2px solid #ccc;
+}
+article h2 p{
+	width: 114px;
+	font-size: 19px;
+	font-weight: normal;
+	height: 19px;
+	line-height: 19px;
+	padding: 31px 0 28px 15px;
+	border-bottom: 2px solid #ff9339;
+}
+aside{
+	margin:20px 30px 0 0;
+	width: 352px;
+	float: left;
+}
+figure{
+	width: 350px;
+	height: 350px;
+	border: 1px solid #dedede;
+	margin-bottom: 12px;
+}
+figure img{
+	display: block;
+	width: 210px;
+	height: 208px;
+	margin: 72px auto;
+}
+.share{
+	padding-left: 20px;
+	height: 20px;
+	line-height: 20px;
+}
+.subShare{
+	display: inline-block;
+	vertical-align: middle;
+}
+.shareItem{
+	float: left;
+}
+.shareItem a{
+	display: block;
+	width: 20px;
+	height: 20px;
+	margin-right: 4px;
+}
+form{
+	width: 816px;
+	float: right;
+}
+form label{
+	display: block;
+	margin: 10px 0;
+}
+.productName{
+	font-size: 18px;
+	color: #5d5d58;
+	font-weight: 600;
+	padding: 30px 0 12px 0;
+	border-bottom: 1px solid #ccc;
+}
+.marketPrice{
+	height: 30px;
+	line-height: 30px;
+}
+.ourPrice span{
+	font-size: 18px;
+	color: #cc3300;
+	font-weight: 600;
+}
+.number{
+	height: 20px;
+	margin-bottom: 20px;
+}
+.number span{
+	display: inline-block;
+	width: 12px;
+	height: 12px;
+	border: 1px solid #ccc;
+	margin: 0 5px;
+}
+.number input{
+	height: 16px;
+	width: 50px;
+	border: 1px soid #ccc;
+	text-align: center;
+}
+.shoppingCar,.buyNow{
+	display: inline-block;
+	width: 130px;
+	height: 40px;
+	outline: none;
+	border: 1px solid #ff6600;
+	cursor: pointer;
+	margin-right: 20px;
+}
+.shoopingcar{
+	background: #fff0e5;
+	color: #ff6600;
+}
+.buyNow{
+	color: #fff;
+	background-color: #ff6600;
+	background-image: url(../img/shoppingcar.jpg);
+	background-repeat: no-repeat;
+	background-position: 14px 12px;
+}
+
+
+
+
+/*购物车*/
+.shoppingShowbox{
+	width: 100%;
+	height: 100%;
+	background: rgba(0,0,0,0.5);
+	position: fixed;
+	top: 0;
+	left: 0;
+	display: none;
+	font-size: 14px;
+	color: #666;
+}
+.subShowbox{
+	width: 350px;
+	height: 150px;
+	padding: 40px 150px 50px 100px;
+	border-radius: 20px;
+	background: #fff;
+	position: absolute;
+	top: 250px;
+	left: 500px;
+	position: relative;
+}
+.subShowbox>p:first-of-type img{
+	vertical-align: middle;
+}
+.subShowbox>p:first-of-type{
+	font-size: 16px;
+	font-weight: 500;
+}
+#showNumber{
+	color: #ff6c00;
+}
+.closeShowbox{
+	display: block;
+	width: 20px;
+	height: 20px;
+	font-size: 20px;
+	cursor: pointer;
+	font-style: normal;
+	position: absolute;
+	top: 20px;
+	right: 20px;
+}
+.subShowbox p{
+	line-height: 3em;
+}
+.goToSettle{
+	display: inline-block;
+	width: 130px;
+	height: 40px;
+	font-size: 14px;
+	outline: none;
+	text-align: center;
+	line-height: 40px;
+	border: 1px solid #ff6600;
+	border-radius: 5px;
+	cursor: pointer;
+	margin-right: 20px;
+	color: #fff;
+	background-color: #ff6600;
+}
+.continueShopping{
+	text-decoration: underline;
+	color: #666;
+	letter-spacing: 1px;
+	font-size: 16px;
+}
+
+.productPage{
+	width: 240px;
+	height: 30px;
+	padding: 400px 0 0 500px;
+}
+.productPage input{
+	width: 80px;
+	height: 30px;
+	margin-right: 20px;
+	border: none;
+	outline: none;
+	cursor: pointer;
+	background: linear-gradient(#fff,#ccc 40%,#ccc 60%,#fff);
+}
+.productPage .pageSelected{
+	border: 1px solid #666;
+	background: linear-gradient(#fff,#ff6600 40%,#ff6600 60%,#fff);
+.productPage input:hover{
+	color: #fff;
+	background: linear-gradient(#fff,#ff6600 40%,#ff6600 60%,#fff);
+}
